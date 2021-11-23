@@ -2,4 +2,4 @@
 
 This is my redesign of the Turners website. 
 
-Upon cloning to the project, run `npm install` and then `npm start`
+Upon cloning the project, run `npm install` and then `npm start`
