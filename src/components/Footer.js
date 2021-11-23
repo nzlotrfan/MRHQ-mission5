@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
       <div className={classes.bottomRow}>
         <div>© 2021 Turners</div>
-        <div>
+        <div className={classes.faqbut}>
           <button
             type="submit"
             className={`${footClasses.button} ${footClasses.login_btn}`}
