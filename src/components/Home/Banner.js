@@ -1,18 +1,29 @@
 import classes from "./Banner.module.css";
-import TBanner1 from "../../assets/TBanner1.jpg";
+import banner1 from "../../assets/banner1.jpg";
+import banner2 from "../../assets/banner2.jpg";
+import banner3 from "../../assets/banner3.jpg";
 import rectangle from "../../assets/rectangle.png";
+
 const Banner = () => {
   return (
-    <div className={classes.container}>
+    <div className={classes.mainContainer}>
       <div>
-        <img src={TBanner1} alt="Banner1"></img>
+        <img src={banner1} alt="banner1"></img>
       </div>
+
       <div className={classes.imagecards}>
-        <img src={rectangle} width="400px" alt="rectanglebox" />
-
-        <img src={rectangle} width="400px" alt="rectanglebox" />
-
-        <img src={rectangle} width="400px" alt="rectanglebox" />
+        <div className={classes.card}>
+          <img className={classes.picture} src={rectangle} alt="rectanglebox" />
+          <button class={`${classes.btn} ${classes.btnstyle}`}>Buy car</button>
+        </div>
+        <div className={classes.card}>
+          <img className={classes.picture} src={rectangle} alt="rectanglebox" />
+          <button class={`${classes.btn} ${classes.btnstyle}`}>Sell your car</button>
+        </div>
+        <div className={classes.card}>
+          <img className={classes.picture} src={rectangle} width="350px" alt="rectanglebox" />
+          <button class={`${classes.btn} ${classes.btnstyle}`}>Insurance</button>
+        </div>
       </div>
     </div>
   );
