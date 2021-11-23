@@ -50,17 +50,44 @@
   color: #8c8c8c;
 }
 
-.eachslide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 350px;
+/* Container needed to position the button. Adjust the width as needed */
+.cardBig {
+  position: relative;
+  /* width: 50%; */
 }
 
-.eachslide span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
+/* Make the image responsive */
+.cardBig,
+.pictureBig {
+  /* width: 80%; */
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.cardBig .btnBig {
+  /* border: none; */
+  position: absolute;
+  top: 80%;
+  right: -5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #bb0000cc;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Montserrat;
+  transition-duration: 0.4s;
+}
+
+.btnstyleBig {
+  background-color: #bb0000cc;
+  color: white;
+  border: 2px solid #bb0000cc;
+}
+
+.btnstyleBig:hover {
+  background-color: white;
+  color: #8c8c8c;
 }

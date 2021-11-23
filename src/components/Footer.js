@@ -1,6 +1,5 @@
 import classes from "./Footer.module.css";
 import footClasses from "./Header.module.css";
-import avatar from "../assets/avatar.png";
 const Footer = () => {
   return (
     <div className={classes.container}>
@@ -61,25 +60,25 @@ const Footer = () => {
           </button>
         </div>
         <div className={classes.contact}>
-          <a href="#" class={classes.contact}>
-            <i class="fas fa-store fa-2x"></i>
+          <a href="#" className={classes.contact}>
+            <i className="fas fa-store fa-2x"></i>
             <p className={classes.contactText}>Branch Details</p>
           </a>
-          <a href="#" class={classes.contact}>
-            <i class="fab fa-facebook fa-2x"></i>
+          <a href="#" className={classes.contact}>
+            <i className="fab fa-facebook fa-2x"></i>
             <p className={classes.contactText}>Facebook</p>
           </a>
 
-          <a href="#" class={classes.contact}>
-            <i class="far fa-newspaper fa-2x"></i>
+          <a href="#" className={classes.contact}>
+            <i className="far fa-newspaper fa-2x"></i>
             <p className={classes.contactText}>Newsletter</p>
           </a>
-          <a href="#" class={classes.contact}>
-            <i class="fas fa-envelope-open-text fa-2x"></i>
+          <a href="#" className={classes.contact}>
+            <i className="fas fa-envelope-open-text fa-2x"></i>
             <p className={classes.contactText}>Email Alerts</p>
           </a>
-          <a href="#" class={classes.contact}>
-            <i class="fab fa-instagram fa-2x"></i>
+          <a href="#" className={classes.contact}>
+            <i className="fab fa-instagram fa-2x"></i>
             <p className={classes.contactText}>Instagram</p>
           </a>
         </div>

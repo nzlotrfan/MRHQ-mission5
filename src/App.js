@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Quotes from "./pages/Quotes";
 import Home from "./pages/Home";
+import Insurance from "./pages/Insurance";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quotes" element={<Quotes />} />
+        <Route path="/insurance" element={<Insurance />} />
       </Routes>
       <div className="footer">
         <Footer />

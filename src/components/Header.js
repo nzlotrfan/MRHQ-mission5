@@ -28,7 +28,10 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink className={(navData) => (navData.isActive ? classes.active : "")} to="/quotes">
+            <NavLink
+              className={(navData) => (navData.isActive ? classes.active : "")}
+              to="/insurance"
+            >
               Auto Insurance
             </NavLink>
           </li>

@@ -8,6 +8,6 @@ body {
 
 .header,
 .footer {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
