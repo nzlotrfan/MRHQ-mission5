@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.container {
+  background-color: white;
+  width: 1350px;
+  background-color: white;
+  margin: 25px;
+  font-family: Montserrat;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+.column {
+  text-align: left;
+}
+
+.link {
+  font-size: 9pt;
+  margin: 0;
+}
+
+.title {
+  font-size: 10pt;
+}
+
+/* Bottom Row */
+.bottomRow {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10pt;
+  align-items: center;
+  margin: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  height: 30px;
+}
+
+.contactText {
+  margin-right: 10px;
+  margin-left: 10px;
+}

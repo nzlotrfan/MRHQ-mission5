@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.header {
+  display: flex;
+  height: 70px;
+  width: 1350px;
+  background-color: white;
+  margin: 20px;
+  font-family: Montserrat;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a.active {
+  color: #105dc2;
+  padding-bottom: 1px;
+  border-bottom: 2px solid #95bcf0;
+}
+
+.search {
+  background-color: #eaeaea;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 40px;
+  border-radius: 5px;
+  border: solid 2px #eaeaea;
+  width: 250px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 12pt;
+}
+
+.nohover:hover {
+  border-bottom: unset;
+}
+
+.button {
+  border: none;
+  width: 100px;
+  height: 35px;
+  color: white;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 6px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Montserrat;
+}
+
+.login_btn {
+  background-color: white;
+  color: #8c8c8c;
+  border: 2px solid #1d7ed8;
+}
+
+.login_btn:hover {
+  background-color: #1d7ed8;
+  color: white;
+}
+
+.register_btn {
+  background-color: #1d7ed8;
+  color: white;
+  border: 2px solid #1d7ed8;
+}
+
+.register_btn:hover {
+  background-color: white;
+  color: #8c8c8c;
+}
+
+.lang {
+  margin-left: 20px;
+  font-size: 10pt;
+}

@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  margin-top: 25px;
+}
+
+.title,
+.testimonial {
+  font-family: Montserrat;
+}
+
+/* LEFT SIDE */
+.left {
+  width: 60%;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 75px;
+  text-align: start;
+}
+.testimonial {
+  font-size: 18pt;
+  padding-top: 30px;
+}
+
+.starsContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stars {
+  width: 45px;
+  margin-left: 5px;
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 40px;
+}
+
+.name {
+  margin: 20px;
+}
+/* RIGHT SIDE */
+.right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-right: 90px;
+  margin-bottom: 80px;
+}

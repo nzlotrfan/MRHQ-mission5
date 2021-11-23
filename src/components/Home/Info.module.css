@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  margin-top: 25px;
+}
+
+/* LEFT SIDE */
+.left {
+  /* background-color: whi; */
+  width: 50%;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 75px;
+  text-align: start;
+}
+
+.imagecards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title,
+.text,
+.rightText {
+  font-family: Montserrat;
+}
+
+.text {
+  font-size: 18pt;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 50%;
+}
+
+.rightContainer {
+  border: solid #e5e5e5 2px;
+  margin-top: 35px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 80px;
+}
+
+.rightText {
+  margin: 30px;
+  text-align: left;
+}
+
+.rightTextTitle {
+  font-size: 16pt;
+}
+
+.rightTextSmall {
+  font-size: 12pt;
+}
