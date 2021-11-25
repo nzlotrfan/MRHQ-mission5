@@ -1,12 +1,12 @@
-import classes from "./Header.module.css";
+import classes from "./NavHeader.module.css";
 import { NavLink, Link } from "react-router-dom";
 import turnerslogo from "../assets/turnerslogo.png";
 
-const Header = () => {
+const NavHeader = () => {
   return (
-    <div className={classes.header}>
+    <div className={classes.container}>
       <div>
-        <Link className={classes.nohover} to="/">
+        <Link className={classes.turnersLogo} to="/">
           <img src={turnerslogo} alt="Turners logo" />
         </Link>
       </div>
@@ -46,12 +46,12 @@ const Header = () => {
         <input className={classes.search} placeholder="🔍 Search" type="text" />
       </div>
       <div>
-        <button type="submit" className={`${classes.button} ${classes.login_btn}`} name="login">
+        <button type="submit" className={`${classes.button} ${classes.loginButton}`} name="login">
           Log in
         </button>
         <button
           type="submit"
-          className={`${classes.button} ${classes.register_btn}`}
+          className={`${classes.button} ${classes.registerButton}`}
           name="register"
         >
           Register
@@ -61,4 +61,4 @@ const Header = () => {
     </div>
   );
 };
-export default Header;
+export default NavHeader;

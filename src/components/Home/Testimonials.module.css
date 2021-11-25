@@ -1,16 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
 .container {
   display: flex;
   background-color: white;
   margin-top: 25px;
-}
-
-.title,
-.testimonial {
-  font-family: Montserrat;
 }
 
 /* LEFT SIDE */

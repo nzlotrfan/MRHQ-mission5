@@ -1,5 +1,4 @@
 import classes from "./Footer.module.css";
-import footClasses from "./Header.module.css";
 const Footer = () => {
   return (
     <div className={classes.container}>
@@ -51,11 +50,7 @@ const Footer = () => {
       <div className={classes.bottomRow}>
         <div>© 2021 Turners</div>
         <div className={classes.faqbut}>
-          <button
-            type="submit"
-            className={`${footClasses.button} ${footClasses.login_btn}`}
-            name="FAQ"
-          >
+          <button type="submit" name="faqButton" className={`${classes.faqButton}`}>
             FAQ
           </button>
         </div>

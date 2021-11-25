@@ -1,33 +1,31 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
-.header {
+/* NavHeader container */
+.container {
   display: flex;
   height: 70px;
-  width: 1350px;
   background-color: white;
-  margin: 20px;
-  font-family: Montserrat;
+  margin: 25px 0;
   font-size: 16px;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* The below makes the nav bar fixed to the top of the page */
+  /* position: fixed; 
+  z-index: 1;
+  width: 100%;
+  max-width: 1350px; */
 }
 
+/* Navigation links container */
 ul {
-  height: 100%;
   list-style: none;
   display: flex;
   padding: 0;
-  margin: 0;
   align-items: center;
-  justify-content: center;
-  white-space: nowrap;
 }
 
-li {
-  padding: 10px;
-}
-
+/* Individual links */
 a {
+  padding: 10px;
   color: #8c8c8c;
   text-decoration: none;
 }
@@ -40,6 +38,7 @@ a.active {
   border-bottom: 2px solid #95bcf0;
 }
 
+/* Search Box */
 .search {
   background-color: #eaeaea;
   text-align: center;
@@ -49,52 +48,55 @@ a.active {
   border: solid 2px #eaeaea;
   width: 250px;
   height: 30px;
-  font-family: Montserrat;
   font-size: 12pt;
+  font-family: inherit;
 }
 
-.nohover:hover {
+/* Remove the underlining from the Turner's logo */
+.turnersLogo:hover {
   border-bottom: unset;
 }
 
+/* General button styling */
 .button {
   width: 100px;
   height: 35px;
   color: white;
-  padding: 0;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 14px;
   margin: 6px 4px;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 5px;
-  font-family: Montserrat;
+  font-family: inherit;
 }
 
-.login_btn {
+/* Login button */
+.loginButton {
   background-color: white;
   color: #8c8c8c;
   border: 2px solid #1d7ed8;
 }
 
-.login_btn:hover {
+.loginButton:hover {
   background-color: #1d7ed8;
   color: white;
 }
 
-.register_btn {
+/* Register button */
+.registerButton {
   background-color: #1d7ed8;
   color: white;
   border: 2px solid #1d7ed8;
 }
 
-.register_btn:hover {
+.registerButton:hover {
   background-color: white;
   color: #8c8c8c;
 }
 
+/* Chinese language */
 .lang {
   margin-left: 20px;
   font-size: 10pt;

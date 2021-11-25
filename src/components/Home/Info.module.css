@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .container {
   display: flex;
   background-color: white;
@@ -26,12 +22,6 @@
 .image {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.title,
-.text,
-.rightText {
-  font-family: Montserrat;
 }
 
 .text {

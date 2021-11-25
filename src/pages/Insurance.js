@@ -1,5 +1,3 @@
-import classes from "./Insurance.module.css";
-
 const Insurance = () => {
   return (
     <div>

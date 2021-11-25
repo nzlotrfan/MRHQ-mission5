@@ -6,13 +6,15 @@ import rectangle from "../../assets/rectangle.png";
 
 const Banner = () => {
   return (
-    <div className={classes.mainContainer}>
-      <div className={classes.cardBig}>
-        <img src={banner1} className={classes.pictureBig} alt="banner1"></img>
-        <button className={`${classes.btnBig} ${classes.btnstyleBig}`}>Get a free quote</button>
+    <div className={classes.container}>
+      <div className={classes.banner}>
+        <img src={banner1} className={classes.pictureBanner} alt="banner1"></img>
+        <button className={`${classes.btnBanner} ${classes.btnBannerStyle}`}>
+          Get a free quote
+        </button>
       </div>
 
-      <div className={classes.imagecards}>
+      <div className={classes.cardsContainer}>
         <div className={classes.card}>
           <img className={classes.picture} src={rectangle} alt="rectanglebox" />
           <button className={`${classes.btn} ${classes.btnstyle}`}>Buy car</button>

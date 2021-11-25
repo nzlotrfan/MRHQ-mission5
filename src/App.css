@@ -1,13 +1,18 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  box-sizing: border-box;
 }
 
 body {
+  font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
 }
 
-.header,
-.footer {
+.App {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  max-width: 1350px;
 }

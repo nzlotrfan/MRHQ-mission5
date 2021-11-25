@@ -1,34 +1,64 @@
-.mainContainer {
+.container {
   background-color: white;
+  padding-bottom: 15px;
 }
 
-.imagecards {
+/* The banner with the button */
+.banner {
+  position: relative;
+}
+
+.pictureBanner {
+  width: 100%;
+}
+
+.btnBanner {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1d7ed8;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Montserrat;
+  transition-duration: 0.4s;
+}
+
+.btnBannerStyle {
+  background-color: #bb0000;
+  color: white;
+  border: 2px solid #bb0000;
+}
+
+.btnBannerStyle:hover {
+  background-color: white;
+  color: #8c8c8c;
+}
+
+/* The small cards with buttons on the cards */
+.cardsContainer {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px auto;
+  max-width: 1350px;
+  text-align: center;
 }
 
-/* Container needed to position the button. Adjust the width as needed */
 .card {
   position: relative;
-  width: 50%;
 }
-
-/* Make the image responsive */
-.card,
 .picture {
   width: 80%;
-  height: auto;
 }
 
-/* Style the button and place it in the middle of the container/image */
-.card .btn {
+.btn {
+  /* These lines position the button exactly in the centre of the parent "relative" element */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+
   background-color: #1d7ed8;
   color: white;
   font-size: 16px;
@@ -46,48 +76,6 @@
 }
 
 .btnstyle:hover {
-  background-color: white;
-  color: #8c8c8c;
-}
-
-/* Container needed to position the button. Adjust the width as needed */
-.cardBig {
-  position: relative;
-  /* width: 50%; */
-}
-
-/* Make the image responsive */
-.cardBig,
-.pictureBig {
-  /* width: 80%; */
-  height: auto;
-}
-
-/* Style the button and place it in the middle of the container/image */
-.cardBig .btnBig {
-  /* border: none; */
-  position: absolute;
-  top: 80%;
-  right: -5%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #bb0000cc;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-family: Montserrat;
-  transition-duration: 0.4s;
-}
-
-.btnstyleBig {
-  background-color: #bb0000cc;
-  color: white;
-  border: 2px solid #bb0000cc;
-}
-
-.btnstyleBig:hover {
   background-color: white;
   color: #8c8c8c;
 }

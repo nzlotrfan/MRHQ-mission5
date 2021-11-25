@@ -1,14 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .container {
   background-color: white;
-  width: 1350px;
-  background-color: white;
-  margin: 25px;
-  font-family: Montserrat;
+  margin: 25px 0 0 0;
 }
 
 .topRow {
@@ -52,4 +44,26 @@
 
 .faqbut {
   margin-right: 285px;
+}
+
+.faqbut button {
+  width: 100px;
+  height: 35px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 6px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+  background-color: white;
+  color: #8c8c8c;
+  border: 2px solid #1d7ed8;
+}
+
+.faqbut button:hover {
+  background-color: #1d7ed8;
+  color: white;
 }
